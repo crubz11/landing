@@ -1,0 +1,55 @@
+/* container */
+
+.container-cards {
+  color: black;
+  text-align: center;
+  width: 900px;
+  margin: auto;
+}
+
+/* cards */
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+/* card */
+
+.card {
+  width: 200px;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 0 5px rgb(230,230,230);
+  color: black;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid rgb(230,230,230);
+}
+
+.card img {
+  width: 150px;
+  height: 200px;
+}
+
+.card-trip-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+
+}
+
+.card-trip-description {
+  padding: 10px;
+  align-items: center;
+}
+
+.card-trip-description h3 {
+  margin: 0;
+}
+
+.card-trip-description p {
+  margin: 0;
+}
